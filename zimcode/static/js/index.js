@@ -4,7 +4,7 @@ particlesJS("particles", {
             "value": 400,
             "density": {
                 "enable": true,
-                "value_area": 1400
+                "value_area": 20
             }
         },
         "color": {

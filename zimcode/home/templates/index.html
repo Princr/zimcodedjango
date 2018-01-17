@@ -1,9 +1,10 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="UTF-8">
-    <title>Landing Page With Typer</title>
+    <title>Zimcode</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Cormorant+Garamond|Poiret+One" rel="stylesheet">
 
@@ -12,7 +13,7 @@
     <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
     <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway'>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
 
     <!-- Linked Data Structure -->
     <script type="application/ld+json">
@@ -94,7 +95,7 @@
                         <input type="text" placeholder="Enter Your Email" /><br>
                         <button>Subscribe</button>
                     </form>
-                    <p>RitDev</p>
+                    <p>RitDev | UNI</p>
                 </div>
             </div>
         </div>
@@ -105,7 +106,7 @@
 
 
 
-    <script src="js/index.js"></script>
+    <script src="{% static 'js/index.js' %}"></script>
 
 
 
