@@ -254,16 +254,5 @@ img {
     color: rgb(255, 248, 248);
     padding: 0;
     margin: 0;
-    font-family: orangejuice;
     font-size: 56px;
-}
-
-@font-face {
-    font-family: "alenx";
-    src: url('/Fonts/athena-of-the-ocean/Athena of the Ocean.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: "orangejuice";
-    src: url('/Fonts/orange-juice/orange\ juice\ 2.0.ttf') format('truetype');
 }

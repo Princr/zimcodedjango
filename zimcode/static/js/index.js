@@ -4,7 +4,7 @@ particlesJS("particles", {
             "value": 400,
             "density": {
                 "enable": true,
-                "value_area": 20
+                "value_area": 2000
             }
         },
         "color": {
@@ -301,3 +301,43 @@ $(document).ready(function() {
         resetCallback: function() {}
     }
 }(window, document, window.jQuery);
+
+var modal = document.getElementById('django-modal');
+
+var button = document.getElementById('django-btn');
+
+var span = document.getElementsByClassName("modal-close")[0];
+
+button.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+};
+
+var phpmodal = document.getElementById('php-modal');
+
+var phpbutton = document.getElementById('php-btn');
+
+
+
+phpbutton.onclick = function() {
+    phpmodal.style.display = "block";
+};
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == phpmodal) {
+        phpmodal.style.display = "none";
+    }
+};
